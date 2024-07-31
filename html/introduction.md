@@ -20,3 +20,31 @@ it is the combination of opening of html tag and content of html with closing of
 2 we can set height and width.
 3 it will always start with a new line.
 4 eg- div,header,footer,aside,article,main,section,blockquote,figure,figcapture.
+
+# text formatting tags:
+1 itallic tag :- <i></i>
+bold tag :- <b></b>
+underline tag :- <u></u>
+emphasise tag :- <em></em> italics ,important
+strong tag :- <strong></strong>  bold,important
+insert tag :-<ins></ins>  undeline,newly added content
+
+# subscript tag:
+ co2 :- 2 is subscript   <sub></sub>
+
+ # superscript tag :
+  x *2*2 :- x power 2 power 2 <sup></sup>
+
+  # address tag:
+  <address></address>
+  thappa technicals 
+
+  # queue tag:
+   <q></q>
+
+   # blockquote tag :
+   <blockquote></blockquote>
+
+   # abbr (abbreviation ) tag :
+   <abbr title="nhvjgfdg">hvjhfg</abbr>
+   title attribute is used to create tool tip
