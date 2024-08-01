@@ -358,25 +358,25 @@ while(i<=20){
 
 // wajsp to find biggest of three numbers?
 
-let a=+prompt("enter 1st number");
-let b=+prompt("enter 1st number");
-let c=+prompt("enter 1st number");
-let result =(a>b>c ? );
-  console.log ("biggest number is : "+res);
+// let a=+prompt("enter 1st number");
+// let b=+prompt("enter 1st number");
+// let c=+prompt("enter 1st number");
+// let result =(a>b>c ? );
+//   console.log ("biggest number is : "+res);
 
 
 
-// wajsp to find biggest of four numbers?
-//wajsp to find the number is even or odd?
-//wajsp to find leap year?
-leap year:- year%100!==0 && year%4===0
-century year:- year%400===0
+// // wajsp to find biggest of four numbers?
+// //wajsp to find the number is even or odd?
+// //wajsp to find leap year?
+// leap year:- year%100!==0 && year%4===0
+// century year:- year%400===0
 
 
-const year =+prompt ("enter a year");
-const response =(year%100!==0 && year%4===0)|| year%400===0?
-"leap year ":"not a leap year"
-console.log ("year+response")
+// const year =+prompt ("enter a year");
+// const response =(year%100!==0 && year%4===0)|| year%400===0?
+// "leap year ":"not a leap year"
+// console.log ("year+response")
 
 
 
