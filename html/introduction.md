@@ -8,9 +8,9 @@ it is tool present inside vs code.
 
 it is the combination of opening of html tag and content of html with closing of html tag.
 
-# difference between inline and block level elements
+# difference between inline and block level elements :
 
-# inline level elements
+# inline level elements :
 1 occupy space required by content.
 2 we can not set height and width.
 3. eg- span tag,italic,bold,strong,u,emphasised,anchor,img,audio,video
@@ -48,3 +48,41 @@ insert tag :-<ins></ins>  undeline,newly added content
    # abbr (abbreviation ) tag :
    <abbr title="nhvjgfdg">hvjhfg</abbr>
    title attribute is used to create tool tip
+
+   # code tag:
+   use to write code inside it
+
+   # heading tag:
+   <h1>most important heading .It automatically create one line break to upper and lower side of the heading</h1>
+   as we go down we importance decreases
+
+   # paragraph tag:
+   <p>It automatically create one line break to upper and lower side of the heading
+   </p>
+
+   # image tag:
+   1. space:- <img>
+2. path:- src attribute
+syntax:-
+<img src=" path of image"
+      alt="
+height="
+width="
+title="
+loading="
+
+# path :
+are of two type absolute path and relative path
+# absolute path:
+the path which is represented from its root directory is known as absolute path 
+# relative path:
+the path which is represented from its current directory is known as relative path
+<img src="./assets/bholenath.webp">
+
+# loading lazy:
+ to waste data of user to download that image
+
+ <img src="../ ">:- used to locate file if the image is in some other folder
+
+ # assignment :
+ top-5 favourate songs 

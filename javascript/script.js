@@ -285,4 +285,98 @@ while(i<=20){
 // console.log(a)
 // console.log(b)
 
+// let a="10";
+// let b="5";
+// console.log(a>b);
+// console.log(a<b);
+// console.log(a>=b);
+// console.log(a<=b);
+// console.log(a!=b);
+// console.log(a=="10");
+// console.log(a===b);// strict equality
+// // strict equality(===)
+// let a=10;
+// let b="10";
+// console.log(a===b);
+
+// //loose not equality
+
+// let a=10
+// let b="10"
+// console.log(a!=b);
+
+//strict not equality
+// let a=10
+// let b="10"
+// console.log(a!==b);
+
+
+// let a=0
+// let b=false
+// console.log(a==b);
+// console.log(a===b);
+
+
+//logical operator
+//1. logical AND
+// let a=20;
+// letb=10;
+// let c=40;
+// let d=30;
+// let result=(a>b && c>d)
+// let result=(a<b && c>d)
+// let result=(a<b && c<d)
+// console.log(result)
+
+//2. logical OR (||)
+//  let a=20;
+//  let b=10;
+//  let c=40;
+//  let d=30;
+//  let result=(a>b || c>d)
+//  let result=(a<b || c>d)
+//  let result=(a>b || c<d)
+//  let result=(a<b || c<d)
+//  console.log(result)
+
+//wajsp to take a number as user input and check the number is divisible by 7 and ends with 7?
+// let a=+prompt("enter a number");
+
+// let result=(a%10===7 && a%7===0)
+// console.log(result)
+
+// ternary operator
+//1. conditional operator
+//  operand 1 ? operand 2 : operand 3
+
+
+//wajsp to find biggest of two numbers?
+// let a=+prompt("enter 1st number");
+// let b=+prompt("enter 1st number");
+// let result =(a>b ? a:b);
+// console.log("biggest number is: "+res);
+
+// wajsp to find biggest of three numbers?
+
+let a=+prompt("enter 1st number");
+let b=+prompt("enter 1st number");
+let c=+prompt("enter 1st number");
+let result =(a>b>c ? );
+  console.log ("biggest number is : "+res);
+
+
+
+// wajsp to find biggest of four numbers?
+//wajsp to find the number is even or odd?
+//wajsp to find leap year?
+leap year:- year%100!==0 && year%4===0
+century year:- year%400===0
+
+
+const year =+prompt ("enter a year");
+const response =(year%100!==0 && year%4===0)|| year%400===0?
+"leap year ":"not a leap year"
+console.log ("year+response")
+
+
 
