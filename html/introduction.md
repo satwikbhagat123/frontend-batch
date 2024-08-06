@@ -86,3 +86,26 @@ the path which is represented from its current directory is known as relative pa
 
  # assignment :
  top-5 favourate songs 
+
+ # hyperlink:
+hyperlink is used to link or attach different documents to our web /html page
+steps to create hyperlink:-
+1. first we have to mark the content 
+to mark the content we use anchor tag (<a></a>) . it is container tag
+2. mention the path or location or hyper refrence where we want user to be redirected . we use href attribute.
+href:- hyper refrence
+syntax:-
+<a      href="https://www.google.com"
+      target="__blank  ">
+  google
+</a>
+
+# target attribute :
+target attribute is used to specify where to open the link
+i) __self:- open in same browser tab   (default)
+ii) __blank:- open in new browser tab.
+
+# states of anchor tag:
+1. not visited :- sky blue
+2. active :- red
+3. visited :- purple

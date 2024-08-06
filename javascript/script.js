@@ -373,6 +373,7 @@ while(i<=20){
 // century year:- year%400===0
 
 
+
 // const year =+prompt ("enter a year");
 // const response =(year%100!==0 && year%4===0)|| year%400===0?
 // "leap year ":"not a leap year"
