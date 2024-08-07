@@ -109,3 +109,9 @@ ii) __blank:- open in new browser tab.
 1. not visited :- sky blue
 2. active :- red
 3. visited :- purple
+
+# how to connect with mobile:
+http://ipv6 address:5500/html/day-4%20hyperlink%20in%20html/hyperlink-3.html
+ipconfig type in terminal to get ipv6 address and put it in above address and connect ur laptop with the same phone hotspot and make sure u have clicked on go live in vs code and then put this address in mobile chrome to call directly trough mobile and thats how we can open this in mobile 
+
+whatsapp.com
