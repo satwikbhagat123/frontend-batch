@@ -115,3 +115,60 @@ http://ipv6 address:5500/html/day-4%20hyperlink%20in%20html/hyperlink-3.html
 ipconfig type in terminal to get ipv6 address and put it in above address and connect ur laptop with the same phone hotspot and make sure u have clicked on go live in vs code and then put this address in mobile chrome to call directly trough mobile and thats how we can open this in mobile 
 
 whatsapp.com
+
+# lists:
+it is a collection or group of related items
+
+# types of list:
+1. ordered list
+2. unordered list
+3. description list/dictionary list/ definition list
+
+# ordered list :
+ it is group of related items represented in an order/sequence
+ to create ordered list we use <ol></ol>tag
+ to create list items we use <li></li>tag
+
+ syntax:-
+ <ol type=""start=""reversed="">
+ <li>HTML</li>
+ <li>css</li>
+ </ol>
+
+ # attributes of ordered list:
+ 1. type: type attibute is used to specify which type of bullet you want to represent.
+
+ type:_________ values:- (1,a,A,I,i)
+ 2. start: start attribute specifies starting of the sequence and here start attribute only accepts the numbers.
+
+ start="___" values:-1,2,3,....
+ 3. reversed: reversed attribute is used to reverse the sequenceof ordered lists.
+
+ # unordered list:
+ it is a group of related items represented in an unordered way i.e., bullets are not following any sequence.
+ to create inordered list we use <ul></ul>tag. it is container tag.
+ to create list item we use <li></li>tag.
+
+ # attribute of unordered lists:
+ 1. type: type attribute is used to specify which type of bullet you want to represent.
+
+ type="____" (values:- disc,circle,square,none)
+
+ # description list/dictionary list/definition list:-
+ 1. description list is a list of term with a description of each term.
+ 2. to create description list we use <dl></dl>tag. it is container tag.
+ 3. to create description term we use <dt></dt>tag.
+ 4. to create description definition list we use <dd></dd>tag.
+ 5. description definition tag we have to write within description term tag.
+ 6. description term tag we have to write with in description list tag.
+
+ syntax:-
+  <dl> decription list
+
+      <dt> description term-1
+            <dd> decription definition tag</dd>
+      </dt>
+      <dt>decription term-2
+            <dd> decription definition tag</dd>
+      </dt>
+  </dl>
