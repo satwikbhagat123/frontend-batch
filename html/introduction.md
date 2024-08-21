@@ -172,3 +172,65 @@ it is a collection or group of related items
             <dd> decription definition tag</dd>
       </dt>
   </dl>
+
+  # table in html:-
+  1. it is collection of rows and columns.
+  2. table is grid organize in rows and columns much like in spreadsheet.
+  3. to create table in html we use <table></table> tag.
+  4. it is container and semantic tag (self explanatory tag).
+  5. here we are creating table row by row.
+  6. to create table we use <tr></tr> tag.
+  7. to create cells ,html provide 2 tags.
+      i) <th></th> tag:- it is used to create table heading cells.
+      ii) <td></td> tag:- it is used to create tabledata cells.
+8. to provide title or caption to gthe table we use <caption></caption>
+tag.
+9. syntax:-
+<table border='1'>
+      <caption>employee salary table</caption>
+
+      <tr>
+            <th>emp id</th>
+            <th>ename</th>
+            <th>salary</th>
+      </tr>
+      <tr>
+            <td>101</td>
+            <td>amit</td>
+            <td>40000</td>
+      </tr>
+      <tr>
+            <td>102</td>
+            <td>manoj</td>
+            <td>60000</td>
+      </tr>
+
+# cell spanning:-
+in html ,we have 2 ways to span a cell
+
+1. row span:- row span is an attibute used to span the cell on row basis
+2. colspan:- colspan is an attibute used to span the cell oncolumn basis
+
+# attributes of table tags
+1. cell padding:- to create space cell boeder and cell content is known as cell padding
+2. cell spacing:- to create space between outside the cell is known as cell spacing
+3. border:- it is used to provide border
+4. rules:- all
+5. align=centre
+
+# thread tag:-
+1. it is a containery tag 
+2. it represent top most part of our table
+3. the top most part of our table we have to write within <thread></thread> tag.
+
+# tbody tag:-
+1. it is a containery tag 
+2. the remaining part of our table we have to write with in in <tbody></tbody> tag.
+
+# tfoot tag:-
+1. it is a containery tag 
+2. the conclusion or summary of the table we have to write with in <tfoot></tfoot> tag.
+3. it represents bottom most part of our table.
+
+# note:-
+thead,tbody and tfoot tag are highly recommended for better expalnation to crawler and code understanding purposes.

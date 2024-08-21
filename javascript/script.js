@@ -378,6 +378,19 @@ while(i<=20){
 // const response =(year%100!==0 && year%4===0)|| year%400===0?
 // "leap year ":"not a leap year"
 // console.log ("year+response")
+function call(){
+  rrn ()
+}
 
+
+
+
+function powerFind()
+{
+   return a*2;
+
+}
+   
+let result=powerFind()
 
 
