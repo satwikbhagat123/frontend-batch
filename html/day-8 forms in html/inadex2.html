@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        sup{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- name <input type="text" name="user-name" value="alex" disabled><br><br> -->
+    name <input type="text" name="user-name" placeholder="enter your full name" required autofocus size="20" minlength="2" maxlength="16"><br><br>
+    <!-- mobile <input type="tel" name="mobile-number" value="+91-xxxxxxxxxx" readonly><br><br> -->
+    mobile <input type="tel" name="mobile-number" placeholder="enter mobile number" minlength="10" maxlength="10"><br><br>
+    email <input type="email" name="user-email" placeholder="xyz@gmail.com"><br><br>
+    password <sup>*</sup><input type="password" name="password" placeholder="enter password" required autocomplete="off"><br><br>
+    calculate 10*2
+    <input type="number" min="0" max="100" step="10"><br><br>
+    select salary range
+    <input type="range" min="0" max="100" step="20" value="0"><br><br>
+    submit your resume
+    <input type="file" accept=".pdf">
+    <input type="submit" value="login">
+    <input type="reset" value="cancel">
+</body>
+</html>
+

@@ -234,3 +234,164 @@ in html ,we have 2 ways to span a cell
 
 # note:-
 thead,tbody and tfoot tag are highly recommended for better expalnation to crawler and code understanding purposes.
+
+# html form:-
+1. forms are used to accept input from the user
+2. to create form in html we use <form></form> tag.
+3. it is a container tag.
+4. in html form,we are accepting input from the user in an input field.
+5. to createinput field we use <input></input> tag. it is non -container tag(un-pair tag).
+
+# attibutes of input tag:
+1. type: type attribute is used to specify which type of data we can accept in an input field.
+
+<input type="______">
+
+      values:- 1. text
+      2. tel
+      3. email
+      4. password
+      5. file multiple
+      6. date
+      7. time
+      8. datetime-local
+      9. colour
+      10. range 
+      11. search
+      12. url
+      13 .submit
+      14. reset
+      15. number 
+      16. radio 
+      17. checkbox
+      18. image
+      19. button
+      20. month
+      21. week
+      22. hidden
+
+      <form action="backend url or # just to refresh the page and not to save data in backend"></form>
+
+2. name:-
+      name attribute is used to provide name to the input field.
+
+3. value:-
+      value attribute is used to provide initial value to the input field or
+      value attribute is used to target value inside an input field.
+
+4. readonly:-
+      it will make the input field as readonly used cant change the value ,but can access the input field.
+
+5. disabled:-
+      it will make the input field as disabled user cant access the input field.
+
+6. required:-
+      it will make the input field as required to be filled . if the input field is empty form will not be submitted.
+
+7. placeholder:-
+      it is used to provide hint to the user.
+
+8. autofocus:-
+      whenever page reloads it will automatically focus an input field.
+
+9. size:-
+      it is used to control the length of an input field.
+
+      size ="_________"value=30 (number)
+
+10. maxlength:-
+      the maximum length attribute specifies the minimum number of characters allowed in an input field.
+
+      maxlength="_________"value=16 (number)
+11. minlength:-
+      the minlength attribute specifies the minimum length of characters allowed in an input field.
+
+      minlength = "_________"value=2 (number)
+
+12. max:-
+      it is used with type = number ,range
+      max attribute specifies the maximum value of an input field.
+
+      max= "_________"value=10 (number)
+
+13. min:-
+      it is used with type = number ,range
+      min attribute specifies the minimum value of an input field.
+
+      min="_________"value=5 (number)
+
+14. autocomplete:-
+      the autocomplete attribute specifies if browsers should try to perdict the value of an input field or not.
+
+      autocomplete="_________"value=on|off
+
+15. step:-
+      step attribute is used to set the discrete step size of an input tag. the default stepping value for number input is 1  
+
+      it works with :-
+      number
+      range
+      date
+      datetime-local
+      month
+      time
+      week
+
+16. accept:-
+      accept attribute is used to specify the file types that the input field can accept.
+
+      accept="________"
+
+      1. audio/*: the user can pick all sound files.
+      2. video/*:the user can pick all video files.
+      3. image/*:a valid media type ,with no parameters.
+      4. .png/*:
+
+# label tag:-
+1. label tag is used to connect text with the input fields.
+2. the text we want to connect we have to write within label tag.
+3. it is container tag.
+4. the input tag, we have to use id attribute and that ids valuewe have to pass to labels for attribute .
+5. whenever user click on that text respective input field will be focused.
+
+6. syntax:-
+      <label for="username">name</label>
+      <input type="text" id="username">
+
+# fieldset tag:-
+1. fieldset tag is used to group form control and it will create one box around the group.
+2. it is a container tag.
+3. fieldset tag we have to write within form tag.
+
+# legend tag:-
+1. it is a container tag.
+2. to provide title or caption to the fieldset we use legend tag
+3. legend tag we have to write within field tag.
+
+syntax:-
+<form action="">
+    <fieldset>
+        <legend>registration form</legend>
+
+        <label for="user-name">name</label>
+        <input type="text" id="user-name" ><br><br>
+
+    </fieldset>
+</form>
+
+# select tag:-
+1. it is a container tag
+2  it is used to create dropdown list.
+3. to create dropdown list we use select tag
+4. here we are providing multiple options to the user from these options user can select only one option.
+5. to create option we use option tag. it is container tag
+6. syntax:-
+<select name="state-name" id="">
+    <option value="" selected disabled>select state name</option>
+    <option value="delhi">delhi</option>
+    <option value="mumbai">mumbai</option>
+    <option value="up">up</option>
+    <option value="haryana">haryana</option>
+    <option value="punjab">punjab</option>
+</select>
+
