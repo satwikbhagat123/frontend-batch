@@ -395,3 +395,60 @@ syntax:-
     <option value="punjab">punjab</option>
 </select>
 
+# diff between input type summit and button tag?
+# input type="submit"
+it is a container tag
+it will always try to connect to the server if server is there it will send the data 
+it will reload page
+it is not fully compatible with the js
+in input type submit , we can not use any other content to create a submit button
+
+# button type
+it is container tag
+it will not try to connect to the server
+it will also reload the page but we can prevent using js
+it is fully compatible with the js
+in button submit,we can use image or anyother content to create a button
+
+# diff b/w id & class?
+# id(#)
+it is used to target elements uniquely
+multiple elements cant have same id
+eg:- 
+<p id="ptag-1">paragraph-1  
+                                    same id is not allowed
+<p id="ptag-1">paragraph-2    
+one elements can have only one id(single id)
+eg:-
+<div id="div-1    tag-1    chombu">Div tag</div>
+it        id-1     id-2   id-3
+should 
+be single
+ only
+to target an element using id in css, we use #(hash) operator
+it is a global attribute we can use in any tag
+
+
+# class(.)
+it is used to target multiple elements at a same time
+multiple elements cant have same class
+eg:-
+<p id="ptag-1">paragraph-1  
+                                //    same class name allowed
+<p id="ptag-1">paragraph-2 
+one elements can have multiple class
+eg:-
+<div id=  "div-1    tag-1   chombu">Div tag</div>
+multiple  value-1     value-2   value-3
+class
+value
+allowed
+to target an element using id in css, we use .(dot) operator
+it is also a global attribute we can use in any tag
+
+
+# diff b/w div tag and span tag
+div is block level element
+span inline level element
+
+
