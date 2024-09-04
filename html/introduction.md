@@ -27,7 +27,7 @@ bold tag :- <b></b>
 underline tag :- <u></u>
 emphasise tag :- <em></em> italics ,important
 strong tag :- <strong></strong>  bold,important
-insert tag :-<ins></ins>  undeline,newly added content
+insert tag :-<ins></ins>  underline,newly added content
 
 # subscript tag:
  co2 :- 2 is subscript   <sub></sub>
@@ -146,7 +146,7 @@ it is a collection or group of related items
 
  # unordered list:
  it is a group of related items represented in an unordered way i.e., bullets are not following any sequence.
- to create inordered list we use <ul></ul>tag. it is container tag.
+ to create unordered list we use <ul></ul>tag. it is container tag.
  to create list item we use <li></li>tag.
 
  # attribute of unordered lists:
@@ -182,8 +182,8 @@ it is a collection or group of related items
   6. to create table we use <tr></tr> tag.
   7. to create cells ,html provide 2 tags.
       i) <th></th> tag:- it is used to create table heading cells.
-      ii) <td></td> tag:- it is used to create tabledata cells.
-8. to provide title or caption to gthe table we use <caption></caption>
+      ii) <td></td> tag:- it is used to create table data cells.
+8. to provide title or caption together table we use <caption></caption>
 tag.
 9. syntax:-
 <table border='1'>
@@ -212,23 +212,23 @@ in html ,we have 2 ways to span a cell
 2. colspan:- colspan is an attibute used to span the cell oncolumn basis
 
 # attributes of table tags
-1. cell padding:- to create space cell boeder and cell content is known as cell padding
+1. cell padding:- to create space cell border and cell content is known as cell padding
 2. cell spacing:- to create space between outside the cell is known as cell spacing
 3. border:- it is used to provide border
 4. rules:- all
 5. align=centre
 
-# thread tag:-
-1. it is a containery tag 
+# thead tag:-
+1. it is a container tag 
 2. it represent top most part of our table
 3. the top most part of our table we have to write within <thread></thread> tag.
 
 # tbody tag:-
-1. it is a containery tag 
+1. it is a container tag 
 2. the remaining part of our table we have to write with in in <tbody></tbody> tag.
 
 # tfoot tag:-
-1. it is a containery tag 
+1. it is a container tag 
 2. the conclusion or summary of the table we have to write with in <tfoot></tfoot> tag.
 3. it represents bottom most part of our table.
 
