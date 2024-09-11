@@ -1,4 +1,4 @@
-//take user input and print number is prime or not prime
+//take user input and print number is prime or not prime1
 import java.util.Scanner;
 class PrimeNumber
 {
