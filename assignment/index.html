@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="script.js" defer></script> <!-- Defer ensures the script runs after DOM loads -->
+</head>
+<body>
+    <form id="passwordForm">
+        <div class="password-wrapper">
+            <input type="password" id="password" placeholder="password to check....">
+            <i id="togglePassword" class="bi bi-eye-slash"></i> <!-- Eye icon to toggle visibility -->
+        </div>
+        <div class="check-results">
+            <span id="uppercase" class="invalid"><i class="bi bi-shield-x"></i> Contains upper letter</span><br>
+            <span id="lowercase" class="invalid"><i class="bi bi-shield-x"></i> Contains lower letter</span><br>
+            <span id="number" class="invalid"><i class="bi bi-shield-x"></i> Contains number</span><br>
+            <span id="special" class="invalid"><i class="bi bi-shield-x"></i> Contains symbol</span><br>
+        </div>
+        <button type="submit" id="submitBtn">Submit</button> <!-- Submit button -->
+    </form>
+</body>
+</html>
